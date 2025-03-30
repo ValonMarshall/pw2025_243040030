@@ -1,12 +1,7 @@
 <?php
-
 // Membuat Array
-
-// cara lama
 $hari = array('Senin', 'Selasa', 'Rabu');
-// cara baru
 $bulan = ['Januari', 'Februari', 'Maret'];
-
 $myArray = ['Sandhika', 39, true];
 
 // Mencetak / Menampilkan Array
@@ -14,31 +9,18 @@ $myArray = ['Sandhika', 39, true];
 var_dump($hari);
 echo "<br>";
 print_r($bulan);
-
+echo "<br>";
 // Gunakan echo jika ingin mencetak 1 elemen (menggunakan index)
 echo $hari[2];
-echo $myArray [0];
+echo "<br>";
+echo $myArray[0];
 echo "<hr>";
 
 // Menambah isi array
-// Gunakan []
+// gunakan []
 $hari[] = 'Kamis';
+$hari[] = "Jum'at";
 $bulan[] = 'April';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-?>
+print_r($hari);
+echo "<br>";
+print_r($bulan);
